@@ -1,0 +1,27 @@
+.header-banner {
+    color: #FFF;
+    width: 100%;
+    background-color: #20232a;
+    display: flex;
+    flex-wrap: nowrap;
+
+    .header-item{
+        display: flex;
+        padding: 1em 2em;
+        flex: 1 1 50%;
+
+        .header-img{
+            height: 65px;
+            width: 45px;
+            padding-right: .6em;
+        }
+
+        .header-item-span {
+            display: flex;
+            font-size: 1.7em;
+            font-weight: 600;
+            align-items: center;
+            margin-right: 10px;
+        }
+    }
+}
